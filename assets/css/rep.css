@@ -1,0 +1,57 @@
+@media screen and (min-width:300px) and (max-width:991px) {
+    /* first section  */
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        width: 90%;
+    }
+    .leftBox {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .leftBox h1 {
+        text-align: center;
+        font-size: 30px;
+    }
+    
+    .leftBox p {
+        line-height: 19px;
+        width: 100%;
+        text-align: center;
+    }
+    .leftBox .btnBox {
+        display: flex;
+        justify-content: center;
+    }
+    .rightBox {
+        width: 100%;
+    }
+    .rightBox .imgBox {
+        width: 100%;
+    }
+
+    /* two section  */
+    .container2 {
+        width: 90%;
+    }
+    /* THREE SECTION  */
+    .container3  {
+        width: 90%;
+    }
+    .container3 .bottomBox .rightBox3 ol {
+        display: flex;
+        gap: 30px;
+    }
+    .container3 .bottomBox .rightBox3 ol li h4 {
+        font-size:16px ;
+        font-weight: 600;
+    }
+    .container3 .bottomBox .rightBox3 ol li span {
+        font-size:14px ;
+        font-weight: 500;
+        width: 100%;
+    }
+}

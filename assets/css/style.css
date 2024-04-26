@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* first section  */
+
+#firstBox {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 80%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.leftBox {
+    width: 45%;
+    min-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+}
+.leftBox h5 {
+    font-size: 13px;
+    font-weight: 300;
+    color: #CCCFD3;
+    cursor: pointer;
+}
+.leftBox h1 {
+    font-size: 42px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+    color:#343F52 ;
+    cursor: pointer;
+}
+.leftBox p {
+    font-size: 20px;
+    font-weight: 100;
+    width: 90%;
+    color:#454951 ;
+    cursor: pointer;
+}
+
+.leftBox .btnBox {
+    width: 70%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+    align-items: center;
+}
+
+.leftBox .btnBox button {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 15px 25px;
+    border-radius: 10px;border: 1px solid saddlebrown;
+    color: white;
+    cursor: pointer;
+    background-color: #252D6C;
+}
+.leftBox .btnBox a {
+    font-size: 17px;
+    font-weight: 500;
+    padding: 2px 4px;
+    color: #220D4E;
+    cursor: pointer;
+    text-decoration: none;
+    border-bottom: 1px solid #252D6C;
+}
+.rightBox {
+    width: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightBox .imgBox {
+    background-image: url(../IMAGE/api-non-conformance.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    width: 90%;
+    border-radius: 15px;
+}
+
+/* two section  */
+
+#twoBox {
+    min-height: 70vh;
+    display: flex;
+    justify-content: center;
+}
+.container2 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.topBox {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.topBox h2 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+}
+.topBox p {
+    font-size: 17px;
+    font-weight: 100;
+    width: 97%;
+    color: #808388;
+}
+.bottomBox {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.bottomBox h1 {
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+}
+
+.bottomBox .iconWriteBox ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+.bottomBox .iconWriteBox ul li {
+    list-style-type: none;
+    color: #808388;
+}
+
+.bottomBox .iconWriteBox ul i {
+    border-radius: 50%;
+    background-color: greenyellow;
+    padding: 5px;
+    color: white;
+}
+
+.bottomBox .iconWriteBox ul li strong {
+    color: #4F535A;
+}
+
+/* three section  */
+
+#threeBox {
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container3 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.container3 .topBox {
+    display: flex;
+}
+.container3 .topBox h4 {
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    color:#808388 ;
+}
+.container3 .topBox h2 {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: -0.2px;
+}
+
+.container3 .bottomBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.container3 .bottomBox .leftBox3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 5%;
+    padding: 10px 0;
+}
+.container3 .bottomBox .leftBox3 .radiousBox {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: 1px solid blue;
+}
+.container3 .bottomBox .leftBox3 .correctBox {
+    background-color: blue;
+    height: 60px;
+    width: 2px;
+}
+.container3 .bottomBox .rightBox3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    padding: 10px 0;
+}
+.container3 .bottomBox .rightBox3 ol {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    gap: 29px;
+    list-style-type: none;
+}
+
+.container3 .bottomBox .rightBox3 ol li h4 {
+    font-size:22px ;
+    font-weight: 600;
+}
+.container3 .bottomBox .rightBox3 ol li span {
+    font-size:17px ;
+    font-weight: 500;
+    width: 90%;
+}
+.container3 .bottomBox .rightBox3 ol li {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
